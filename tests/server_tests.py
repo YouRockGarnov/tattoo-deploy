@@ -7,8 +7,7 @@ import time
 from flask import g
 import requests
 from tools.log import logger
-
-main_url = 'https://tattoo-sender.herokuapp.com'
+from configs.config_vkbot import main_url
 
 def assertTrue(expr, funcname):
     if not expr:
