@@ -44,6 +44,9 @@ def get_debug():
 def create_db():
     return creating_scratch.create_db()
 
+@app.route('/reset_db', methods=['GET'])
+def reset_db():
+    return creating_scratch.reset_db()
 
 @app.route('/', methods=['POST'])
 def processing():

@@ -56,3 +56,5 @@ def reset_db():
     db.drop_tables([AdminPage, TargetGroup, UserPage, SenderPage])
 
     db.create_tables([AdminPage, TargetGroup, UserPage, SenderPage])
+
+    return 'DB is reseted!'
