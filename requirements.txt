@@ -1,0 +1,6 @@
+Flask == 0.11
+peewee==3.5.2
+vk==2.0.2
+DateTime==4.2
+psycopg2==2.7.5
+flask-peewee==3.0.3
